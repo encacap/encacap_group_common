@@ -1,6 +1,6 @@
 {
   "name": "encacap",
-  "version": "1.2.4",
+  "version": "1.2.7",
   "description": "Encacap RE Package",
   "scripts": {
     "lint": "eslint 'src/**/*.{js,ts,jsx,tsx}' --quiet --fix",

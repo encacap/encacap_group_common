@@ -1,5 +1,5 @@
 # Publish to the NPM Registry
-name: Publish to NPM
+name: Release
 
 on:
   push:
@@ -16,6 +16,12 @@ jobs:
           node-version: 19
           registry-url: https://registry.npmjs.org/
       - run: npm install
-      - run: npx semantic-release
+      # - run: npx semantic-release
+      #   env:
+      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      #     GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: Publish to NPM
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: npx semantic-release

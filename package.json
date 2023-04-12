@@ -1,6 +1,6 @@
 {
   "name": "@encacap-group/types",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Encacap Group Types Package",
   "scripts": {
     "lint": "eslint 'src/**/*.{js,ts,jsx,tsx}' --quiet --fix",
@@ -12,8 +12,9 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
-    "dist",
-    "README.md"
+    "dist/**/*",
+    "README.md",
+    "src/**/*"
   ],
   "repository": {
     "type": "git",

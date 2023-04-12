@@ -1,4 +1,4 @@
-import { IWebsite } from "re/website/website.interface";
+import { IWebsite } from "../website/website.interface";
 
 export interface IRole {
   id: number;

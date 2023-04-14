@@ -1,2 +1,2 @@
-export * as Account from "./account";
-export * as RE from "./re";
+export * as account from "./account";
+export * as re from "./re";

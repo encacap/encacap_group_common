@@ -5,13 +5,17 @@
   "scripts": {
     "lint": "eslint 'src/**/*.{js,ts,jsx,tsx}' --quiet --fix",
     "clean": "rimraf dist",
-    "tscBuild": "tsc --build ../tsconfig.json",
-    "build": "npm run clean && npm run tscBuild && cp package.json dist/package.json && cp README.md dist/README.md",
+    "tscBuild": "tsc --build tsconfig.build.json",
+    "postBuild": "cp package.json dist/package.json",
+    "build": "npm run clean && npm run tscBuild && npm run postBuild",
     "prepare": "npm run build",
     "semantic-release": "semantic-release"
   },
   "main": "./index.js",
   "types": "./index.d.ts",
+  "files": [
+    "*"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/encacap/encacap_npm_package.git"

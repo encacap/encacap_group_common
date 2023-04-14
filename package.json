@@ -8,7 +8,6 @@
     "tscBuild": "tsc --build tsconfig.build.json",
     "postBuild": "rm tsconfig.build.tsbuildinfo && cp package.json dist/package.json",
     "build": "npm run clean && npm run tscBuild && npm run postBuild",
-    "prepare": "npm run build",
     "semantic-release": "semantic-release"
   },
   "main": "./index.js",

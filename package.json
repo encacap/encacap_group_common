@@ -11,6 +11,9 @@
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "*"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/encacap/encacap_npm_package.git"

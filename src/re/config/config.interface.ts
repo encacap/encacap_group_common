@@ -6,6 +6,6 @@ export interface IConfig {
   group: CONFIG_GROUP_ENUM;
   type: CONFIG_TYPE_ENUM;
   value?: string | number | boolean;
-  websiteId?: string;
+  websiteId?: number;
   website: IWebsite;
 }

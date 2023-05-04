@@ -13,3 +13,5 @@ const getImageURL = (
 
   return image[variant] ?? image[DEFAULT_CLOUDFLARE_VARIANT_ENUM.PUBLIC];
 };
+
+export { getImageURL };

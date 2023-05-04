@@ -1,7 +1,7 @@
 import { AxiosError, AxiosResponse } from "axios";
 import { FieldPath, FieldValues } from "react-hook-form";
 
-export interface BaseListQueryType extends Record<string, unknown> {
+export interface IBaseListQuery extends Record<string, unknown> {
   page?: number;
   limit?: number;
   filterBy?: string;
@@ -11,7 +11,7 @@ export interface BaseListQueryType extends Record<string, unknown> {
   searchBy?: string;
 }
 
-export interface AxiosErrorDataType {
+export interface IAxiosErrorData {
   statusCode: number;
   message: string;
   error: {
@@ -22,25 +22,24 @@ export interface AxiosErrorDataType {
   code: string;
 }
 
-export type AxiosErrorType = AxiosError<AxiosErrorDataType>;
+export type IAxiosError = AxiosError<IAxiosErrorData>;
 
-export interface ResponseMetaType {
+export interface IResponseMeta {
   page: number;
   limit: number;
   totalRows: number;
   totalPages: number;
 }
 
-export interface ResponseWithMetaType<T = unknown>
-  extends Partial<AxiosResponse> {
+export interface IResponseWithMeta<T = unknown> extends Partial<AxiosResponse> {
   data: T;
-  meta: ResponseMetaType;
+  meta: IResponseMeta;
 }
 
-export interface AxiosResponseType<T> extends AxiosResponse {
+export interface IAxiosResponse<T> extends AxiosResponse {
   statusCode: number;
   message: string;
-  meta: ResponseMetaType;
+  meta: IResponseMeta;
   data: {
     data: T;
   };

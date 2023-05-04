@@ -40,8 +40,11 @@
     "eslint-plugin-promise": "^6.0.0",
     "prettier": "^2.7.0",
     "rimraf": "^3.0.2",
-    "typescript": "*",
-    "semantic-release": "^21.0.1"
+    "semantic-release": "^21.0.1",
+    "typescript": "*"
   },
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^1.4.0",
+    "react-hook-form": "^7.43.9"
+  }
 }

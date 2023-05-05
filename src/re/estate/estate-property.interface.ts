@@ -1,8 +1,8 @@
-import { ICategory } from "../category";
+import { ICategoryProperty } from "../category";
 
 export interface IEstateProperty {
-  id: number;
-  name: string;
-  category: ICategory;
-  categoryId: number;
+  estateId: number;
+  categoryPropertyId: number;
+  value: string;
+  categoryProperty: ICategoryProperty;
 }

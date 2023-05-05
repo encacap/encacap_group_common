@@ -7,6 +7,7 @@ import {
   ILocationWard,
 } from "../location";
 import { IUnitPrice } from "../unit-price";
+import { IEstateProperty } from "./estate-property.interface";
 import { IEstateQuarter } from "./estate-quarter.interface";
 import { ESTATE_STATUS_ENUM } from "./estate-status.constant";
 
@@ -33,4 +34,5 @@ export interface IEstate {
   priceUnit: IUnitPrice;
   contact: IContact;
   youtubeId?: string;
+  properties: IEstateProperty[];
 }

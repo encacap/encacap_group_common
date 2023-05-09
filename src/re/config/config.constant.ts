@@ -4,9 +4,8 @@ export enum CONFIG_GROUP_ENUM {
 }
 
 export enum CONFIG_TYPE_ENUM {
-  STRING = "string",
-  NUMBER = "number",
-  BOOLEAN = "boolean",
+  PRIMITIVE = "primitive",
+  IMAGE = "image",
 }
 
 export enum BAOLOCRE_SITE_CONFIG_CODE_ENUM {

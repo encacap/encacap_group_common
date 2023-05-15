@@ -5,4 +5,6 @@ export interface IEstateProperty {
   categoryPropertyId: number;
   value: string;
   categoryProperty: ICategoryProperty;
+  name: string;
+  id: number;
 }

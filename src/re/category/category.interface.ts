@@ -11,6 +11,7 @@ export interface ICategory {
   thumbnailId: string;
   websiteId: number;
   website: IWebsite;
-  parentCategoryId: number | null;
-  parentCategory: unknown;
+  parentId: number | null;
+  parent: unknown;
+  children: unknown[];
 }

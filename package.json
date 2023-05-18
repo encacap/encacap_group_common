@@ -1,7 +1,7 @@
 {
-  "name": "@encacap-group/types",
+  "name": "@encacap-group/common",
   "version": "1.2.1",
-  "description": "Encacap Group Types Package",
+  "description": "The Encacap Group package, which contains all the common components and functions used in the Encacap Group projects.",
   "scripts": {
     "lint": "eslint 'src/**/*.{js,ts,jsx,tsx}' --quiet --fix",
     "clean": "rimraf dist",

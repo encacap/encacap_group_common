@@ -1,6 +1,6 @@
 {
   "name": "@encacap-group/common",
-  "version": "1.2.1",
+  "version": "1.6.19",
   "description": "The Encacap Group package, which contains all the common components and functions used in the Encacap Group projects.",
   "scripts": {
     "lint": "eslint 'src/**/*.{js,ts,jsx,tsx}' --quiet --fix",

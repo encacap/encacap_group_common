@@ -16,6 +16,7 @@ export enum SITE_CONFIG_CODE_ENUM {
   ADDRESS = "site_address",
   FACEBOOK = "site_facebook",
   HOMEPAGE_SLIDER_IMAGE = "site_homepage_slider_image",
+  CONTACT_INFORMATION = "site_contact_information",
 }
 
 export enum BAOLOCRE_SITE_CONFIG_CODE_ENUM {

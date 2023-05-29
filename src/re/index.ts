@@ -5,6 +5,7 @@ export * from "./contact";
 export * from "./estate";
 export * from "./helper";
 export * from "./location";
+export * from "./post";
 export * from "./unit-price";
 export * from "./user";
 export * from "./website";

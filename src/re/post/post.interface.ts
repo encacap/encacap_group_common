@@ -1,4 +1,5 @@
 import { ICategory } from "../category";
+import { ICloudflareImageResponse } from "../cloudflare";
 import { ESTATE_STATUS_ENUM } from "../estate";
 
 export interface IPost {
@@ -6,8 +7,11 @@ export interface IPost {
   title: string;
   code: string;
   content: string;
-  avatar: string;
+  avatar: ICloudflareImageResponse;
   category: ICategory;
   categoryId: number;
   status: ESTATE_STATUS_ENUM;
+  updatedAt: Date;
+  createdAt: Date;
+  deletedAt: Date | null;
 }

@@ -14,4 +14,6 @@ export interface ICategory {
   parentId: number | null;
   parent: unknown;
   children: unknown[];
+  createdAt: Date;
+  updatedAt: Date;
 }

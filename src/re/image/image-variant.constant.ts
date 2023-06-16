@@ -1,4 +1,4 @@
-export enum DEFAULT_CLOUDFLARE_VARIANT_ENUM {
+export enum IMAGE_VARIANT_ENUM {
   PUBLIC = "public",
   SMALL = "small",
   MEDIUM = "medium",

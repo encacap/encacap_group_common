@@ -1,6 +1,6 @@
 import { ICategory } from "../category";
-import { ICloudflareImageResponse } from "../cloudflare";
 import { IContact } from "../contact";
+import { IImageResponse } from "../image";
 import {
   ILocationDistrict,
   ILocationProvince,
@@ -20,8 +20,8 @@ export interface IEstate {
   address: string;
   addressNote?: string;
   description: string;
-  avatar: ICloudflareImageResponse;
-  images: ICloudflareImageResponse[];
+  avatar: IImageResponse;
+  images: IImageResponse[];
   province: ILocationProvince;
   district: ILocationDistrict;
   ward?: ILocationWard;

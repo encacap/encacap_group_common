@@ -1,4 +1,4 @@
-import { ICloudflareImageResponse } from "../cloudflare";
+import { IImageResponse } from "../image";
 import { IWebsite } from "../website";
 import { CATEGORY_GROUP_ENUM } from "./category-group.constant";
 
@@ -7,13 +7,11 @@ export interface ICategory {
   code: string;
   name: string;
   categoryGroupCode: CATEGORY_GROUP_ENUM;
-  thumbnail: ICloudflareImageResponse;
-  thumbnailId: string;
+  avatar: IImageResponse;
+  avatarId: string;
   websiteId: number;
   website: IWebsite;
-  parentId: number | null;
-  parent: unknown;
-  children: unknown[];
+  parent: ICategory | null;
   createdAt: Date;
   updatedAt: Date;
 }

@@ -1,4 +1,4 @@
-import { ICloudflareImageResponse } from "../cloudflare";
+import { IImageResponse } from "../image";
 
 export interface IContact {
   id: number;
@@ -7,5 +7,5 @@ export interface IContact {
   zalo: string;
   email: string;
   avatarId: string;
-  avatar: ICloudflareImageResponse;
+  avatar: IImageResponse;
 }

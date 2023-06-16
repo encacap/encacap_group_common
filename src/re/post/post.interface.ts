@@ -1,13 +1,13 @@
 import { ICategory } from "../category";
-import { ICloudflareImageResponse } from "../cloudflare";
 import { ESTATE_STATUS_ENUM } from "../estate";
+import { IImageResponse } from "../image";
 
 export interface IPost {
   id: number;
   title: string;
   code: string;
   content: string;
-  avatar: ICloudflareImageResponse;
+  avatar: IImageResponse;
   category: ICategory;
   categoryId: number;
   status: ESTATE_STATUS_ENUM;

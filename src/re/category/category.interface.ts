@@ -12,6 +12,7 @@ export interface ICategory {
   websiteId: number;
   website: IWebsite;
   parent: ICategory | null;
+  children: ICategory[] | null;
   createdAt: Date;
   updatedAt: Date;
 }

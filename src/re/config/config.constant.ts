@@ -16,7 +16,7 @@ export enum BAOLOCRE_CONFIG_CODE_ENUM {
   CONTACT_INFORMATION = "site_contact_information",
 }
 
-export enum ACBUILDING_SITE_CONFIG_CODE_ENUM {
+export enum ACB_CONFIG_CODE_ENUM {
   EMAIL = "site_email",
   FAX = "site_fax",
   BANK = "site_bank",

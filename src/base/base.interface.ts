@@ -1,5 +1,4 @@
 import { AxiosError, AxiosResponse } from "axios";
-import { FieldPath, FieldValues } from "react-hook-form";
 
 export interface IBaseListQuery extends Record<string, unknown> {
   page?: number;
@@ -17,7 +16,7 @@ export interface IAxiosErrorData {
   error: {
     code: number;
     message: string;
-    field: Record<FieldPath<FieldValues>, string[]>;
+    field: Record<string, string[]>;
   };
   code: string;
 }

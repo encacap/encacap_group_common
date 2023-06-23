@@ -7,21 +7,21 @@ export enum CONFIG_TYPE_ENUM {
 }
 
 export enum BAOLOCRE_CONFIG_CODE_ENUM {
-  ZALO = "siteZalo",
-  YOUTUBE = "siteYoutube",
-  PHONE_NUMBER = "sitePhoneNumber",
-  ADDRESS = "siteAddress",
-  FACEBOOK = "siteFacebook",
-  HOMEPAGE_SLIDER_IMAGE = "siteHomepageSliderImage",
-  CONTACT_INFORMATION = "siteContactInformation",
+  ZALO = "site-zalo",
+  YOUTUBE = "site-youtube",
+  PHONE_NUMBER = "site-phone-number",
+  ADDRESS = "site-address",
+  FACEBOOK = "site-facebook",
+  HOMEPAGE_SLIDER_IMAGE = "site-homepage-slider-image",
+  CONTACT_INFORMATION = "site-contact-information",
 }
 
 export enum ACB_CONFIG_CODE_ENUM {
-  EMAIL_ADDRESS = "emailAddress",
-  TAX_NUMBER = "taxNumber",
-  BANK_ACCOUNT = "bankAccount",
-  HOMEPAGE_HERO_IMAGE = "homepageHeroImage",
-  HOMEPAGE_INTRODUCE_IMAGE = "homepageIntroduceImage",
-  PHONE_NUMBER = "phoneNumber",
+  EMAIL_ADDRESS = "email-address",
+  TAX_NUMBER = "tax-number",
+  BANK_ACCOUNT = "bank-account",
+  HOMEPAGE_HERO_IMAGE = "homepage-hero-image",
+  HOMEPAGE_INTRODUCE_IMAGE = "homepage-introduce-image",
+  PHONE_NUMBER = "phone-number",
   ADDRESS = "address",
 }

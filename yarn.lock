@@ -28,6 +28,13 @@
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
+"@encacap-group/common@^1.8.7":
+  version "1.8.7"
+  resolved "https://registry.yarnpkg.com/@encacap-group/common/-/common-1.8.7.tgz#8362ff5b4455fb75b4027b8cda0eeb49c8864f94"
+  integrity sha512-nsTJeIr5g/a/1N4GPkcWIdF4eUaBA9/Ick9xR9Q4dSxpNaAFM5xPb79QYhic5kOXBXzPumGsCySTY6EK6oBddg==
+  dependencies:
+    axios "^1.4.0"
+
 "@eslint-community/eslint-utils@^4.2.0":
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz#a23514e8fb9af1269d5f7788aa556798d61c6b59"

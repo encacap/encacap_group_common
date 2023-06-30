@@ -4,6 +4,8 @@ export enum CONFIG_TYPE_ENUM {
   IMAGE_ARRAY = "image_array",
   CONTACT = "contact",
   ADDRESS = "address",
+  POST = "post",
+  CONFIG_ARRAY = "config_array",
 }
 
 export enum BAOLOCRE_CONFIG_CODE_ENUM {
@@ -22,6 +24,7 @@ export enum ACB_CONFIG_CODE_ENUM {
   BANK_ACCOUNT = "bank-account",
   HOMEPAGE_HERO_IMAGE = "homepage-hero-image",
   HOMEPAGE_INTRODUCE_IMAGE = "homepage-introduce-image",
+  HOMEPAGE_INTRODUCE_POST = "homepage-introduce-post",
   PHONE_NUMBER = "phone-number",
   ADDRESS = "address",
 }

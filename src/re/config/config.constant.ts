@@ -25,6 +25,7 @@ export enum ACB_CONFIG_CODE_ENUM {
   HOMEPAGE_HERO_IMAGE = "homepage-hero-image",
   HOMEPAGE_INTRODUCE_IMAGE = "homepage-introduce-image",
   HOMEPAGE_INTRODUCE_POST = "homepage-introduce-post",
+  HOMEPAGE_SERVICE = "homepage-service",
   PHONE_NUMBER = "phone-number",
   ADDRESS = "address",
 }

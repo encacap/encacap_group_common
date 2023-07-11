@@ -3,5 +3,6 @@
     "source.fixAll.eslint": true,
     "source.organizeImports": true
   },
-  "prettier.prettierPath": "./node_modules/prettier"
+  "prettier.prettierPath": "./node_modules/prettier",
+  "cSpell.words": ["zalo"]
 }

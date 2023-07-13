@@ -28,4 +28,9 @@ export enum PERMISSION_CODE_ENUM {
   RE_WEBSITE_CONFIG_MODIFY_HOMEPAGE_HERO_IMAGE = "re-website-config-modify-homepage-hero-image",
   RE_WEBSITE_CONFIG_MODIFY_HOMEPAGE_INTRODUCE_IMAGE = "re-website-config-modify-homepage-introduce-image",
   RE_WEBSITE_CONFIG_MODIFY_HOMEPAGE_INTRODUCE_POST = "re-website-config-modify-homepage-introduce-post",
+  RE_ESTATE_VIEW = "re-estate-view",
+  RE_LOCATION_PROVINCE_VIEW = "re-location-province-view",
+  RE_LOCATION_DISTRICT_VIEW = "re-location-district-view",
+  RE_LOCATION_WARD_VIEW = "re-location-ward-view",
+  RE_LOCATION_ADDRESS_VIEW = "re-location-address-view",
 }

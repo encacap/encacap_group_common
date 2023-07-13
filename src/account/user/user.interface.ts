@@ -1,3 +1,4 @@
+import { IPermission } from "../permission";
 import { IRole } from "../role";
 
 export interface IUser {
@@ -8,4 +9,5 @@ export interface IUser {
   firstName: string;
   lastName: string;
   roles: IRole[];
+  permissions: IPermission[];
 }

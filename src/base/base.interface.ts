@@ -8,6 +8,7 @@ export interface IBaseListQuery extends Record<string, unknown> {
   sortBy?: string;
   searchValue?: string;
   searchBy?: string;
+  expands?: string[];
 }
 
 export interface IAxiosErrorData {
